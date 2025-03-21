@@ -4,13 +4,11 @@ class Car:
         self.max_speed = max_speed
         self.travelled_dis = 0
         self.current_speed = 0
-
-car1 = Car("ABC-123", "142 km/h")
-
+#
+car1 = Car("ABC-123", 142)
+#
 print(f"New car: \n"
     f"Registration number {car1.reg_number} \n"
-    f"Max speed {car1.max_speed} \n"
+    f"Max speed {car1.max_speed} km/h \n"
     f"Current speed {car1.current_speed} km/h \n"
     f"Travelled distance {car1.travelled_dis} km")
-
-
