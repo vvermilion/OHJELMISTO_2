@@ -10,7 +10,6 @@ class Book(Publication):
         print(f"Book: {self.name}")
         print(f"Author: {self.author}")
         print(f"Page count: {self.page_count}")
-#
 class Magazine(Publication):
     def __init__(self, name, chief_editor):
         super().__init__(name)
