@@ -33,5 +33,3 @@ def main():
 #
     print(f"Electric Car {electric_car.reg_number} traveled {electric_car.travelled_dis} km.")
     print(f"Gasoline Car {gasoline_car.reg_number} traveled {gasoline_car.travelled_dis} km.")
-if __name__ == "__main__":
-    main()
